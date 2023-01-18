@@ -1,0 +1,87 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2, form{
+  text-align: center;
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: black;
+  line-height: 150%;
+}
+button{
+  display: block;
+  margin: 20px auto;
+  color: pink;
+  background-color: purple;
+  border-radius: 30%;
+}
+ul{
+  width: 100px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  text-align: center;
+  width: 94px;
+  height: 49px;
+  border: 1px solid black;
+}
+h2{
+  font-size: 20px;
+  color: lightpink;
+  font-weight: bold;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+html {
+  background-image:
+  url("../img/giphyblackhole.gif");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-color: black;
+  background-position: 50%;
+  background-position-y: 10%;
+
+  border: 2px none red;
+  height: 400px;
+  width: 100%;
+}
+
+#theTitle {
+  font-size: 3rem;
+  color: red;
+}
+
+/* #slideSource {
+  opacity: 1;
+  transition: opacity 1s; 
+  color: red;
+}
+
+#slideSource.fade {
+  opacity: 0;
+}
+
+#slideSource img {
+  width: 50%;
+  margin-left: 25%;
+} */
+
+form {
+color: pink;
+background-color: black;
+
+}
